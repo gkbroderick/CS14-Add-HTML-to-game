@@ -1,0 +1,123 @@
+#gameContainer{
+  background-color: gray;
+  height: 434px;
+  width: 516px;
+  padding-top: 1px;
+  box-shadow: 0px 0px 2px 2px gray;
+}
+#title {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+#GuessContainer {
+  background-color: #333330;
+  height: 140px;
+  width: 220px;
+  border-radius: 2px;
+  margin: 5px;
+  box-shadow: 0px 0px 2px 2px #333330;
+
+}
+#GuessC {
+  margin: 12px;
+}
+#CardContainer {
+  background-color: #333333;
+  height: 132px;
+  width: 505px;
+  border-radius: 2px;
+  margin: 5px;
+  position: relative;
+  top: -140px;
+  overflow: auto;
+  box-shadow: 0px 0px 2px 2px #333330;
+}
+#deck {
+  background: linear-gradient(#FF3333, #E62E2E);
+  height: 95px;
+  width: 65px;
+  margin: 8px 15px 8px 8px;
+  padding: 5px;
+  border: 5px solid white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 0px black, 4px 4px 0px white, 5px 5px 0px black,
+    9px 9px 0px white, 10px 10px 0px black;
+  float: left;
+}
+#ResultsContainer {
+  background: #333330;
+  height: 140px;
+  width: 268px;
+  border-radius: 2px;
+  margin-right: 5px;
+  top: -145px;
+  float:right;
+  position: relative;
+  overflow: auto;
+  box-shadow: 0px 0px 2px 2px #333330;
+}
+#Divider1 {
+  height: 0px;
+  clear: both;
+}
+.Card {
+  background: white;
+  height: 95px;
+  width: 65px;
+  margin: 8px;
+  padding: 5px;
+  border: 5px solid white;
+  border-radius: 4px;
+  float: left;
+}
+.CardBack {
+  background: linear-gradient(#FF3333, #E62E2E);
+  height: 95px;
+  width: 65px;
+  margin: 8px;
+  padding: 5px;
+  float: left;
+  border: 5px solid white;
+  border-radius: 4px;
+}
+.CardText {
+  font-family: Arial black;
+  text-align: left;
+  position: relative;
+  top: -20px;
+  text-shadow: 48px 80px 0px;
+}
+.LittleCard {
+  background: white;
+  height: 40px;
+  width: 25px;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: 10px;
+  float: right;
+}
+.LittleCardText {
+  font-family: Arial black;
+  font-size: 10px;
+  text-align: left;
+  padding-left: 1px; 
+  position: relative;
+  top: -12px;
+  text-shadow: 11px 28px 0px;
+}
+
+#MessageContainer {
+  background-color: #F6F6F6;
+  height: 50px;
+  width: 503px;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 2px;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  top: -135px;
+  outline: solid 1px #333330;
+  box-shadow: 0px 0px 2px 2px #333330;
+}

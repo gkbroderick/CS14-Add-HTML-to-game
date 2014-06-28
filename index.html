@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <main id="gameContainer">
+      <header id="title"> 
+        <h1>Matching Game</h1>
+      </header>
+      <nav id ="GuessContainer">
+        <div id = "deck" onclick="pickCardGame()">
+        </div>
+          <div id="GuessC">
+          <p id = "GCText" class = "CardText"></p>
+        </div>
+      </nav>
+      <aside id="ResultsContainer">
+      </aside>
+      <div id = "Divider1"></div>
+      <section id="CardContainer">
+        <div id="C0" onclick="parseClick(0)">
+          <p id = "C0p" class = "CardText"></p>
+        </div>
+        <div id="C1" onclick="parseClick(1)">
+          <p id = "C1p" class = "CardText"></p>
+        </div>
+        <div id="C2" onclick="parseClick(2)">
+          <p id ="C2p" class = "CardText"></p>
+        </div>
+        <div id="C3" onclick="parseClick(3)">
+          <p id ="C3p" class = "CardText"></p>
+        </div>
+        <div id="C4" onclick="parseClick(4)">
+          <p id ="C4p" class = "CardText"></p>
+        </div>
+      </section>
+      <div id ="Divider1"></div>
+      <footer id="MessageContainer">
+        <p id="Message">Click the Deck to Begin!</p>
+      </footer>
+    </main>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
